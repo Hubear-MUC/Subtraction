@@ -1,47 +1,38 @@
-Subtract 1.0
+Subtract 2.0
+------------
 
 This program subtracts a number from another one.
 
-The subtraction and the result have to be investigated with using a debugger.
+With this version comes a full user interaction so the program does not have to be run with a debugger anymore as the previous versions.
 
-1  double a,b,c;
-2
-3  main()
-4  {
-5    c=a-b;
-6  }
+Just invoke the program after compilation.
 
-Set a breakpoint to line 3 or 4 and start the program execution.
+Then the program asks you for the first number (the number from which is subtracted)
 
-Then set another breakpoint on line 6.
+After that the program asks for the second number (which will be subtracted)
 
-Then set the variable
+After the calculation the program shows the result on the screen and terminates.
 
-  a
+An example for
+
+  8 - 6 = 2
   
-with the number from which should be subtracted.
+looks like this:
 
-Then set the variable
-
-  b
-  
-with the number that should be subtracted from the number in variable a.
-
-Then let the program run.
-
-Investigate the content of variable
-
-  c
-  
-to see the result.
-
-Finally continue the program execution to finish the program.
+  in : 8
+  in : 6
+  out: 2.000000
 
 
 
 
 Version history:
 ----------------
+
+Version 2.0
+
+Implemention of full user interaction to replace the need of running the program with a debugger.
+
 
 Version 1.0
 
