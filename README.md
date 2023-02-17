@@ -1,13 +1,22 @@
 # Subtraction
+
+Version 3.0
+
 A program to do some (mathematical) subtraction with numbers
 
 See readme.txt for details.
 
-Code extent: max. 80 bytes
+Code extent: max. 122 bytes
 
 
 Version history:
 ----------------
+
+Version 3.0
+
+- Implementation of the number entry as arguments at invocation.
+- Termination of the program if too less data is entered.
+
 
 Version 2.0
 
