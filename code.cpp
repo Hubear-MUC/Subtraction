@@ -1,9 +1,7 @@
-#include "dincl.h"
-double a,b,c;
-int main()
+#include <stdio.h>
+#include <stdlib.h>
+main(int c,char** r)
 {
-a=in();
-b=in();
-c=a-b;
-out(c);
+if(c<3)return(-1);
+printf("%lf\n",atof(r[1])-atof(r[2]));
 }

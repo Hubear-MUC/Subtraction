@@ -1,39 +1,42 @@
-Subtract 2.0
-------------
+Subtraction 3.0
+---------------
 
-This program subtracts a number from another one.
+Two numbers given as arguments are subtracted and the result will be shown 
+in the terminal.
 
-With this version comes a full user interaction so the program does not have to be run with a debugger anymore as the previous versions.
+The second number given will be subtracted from the first one.
 
-Just invoke the program after compilation.
+The new feature is that the number from which is subtracted and the number
+that is to be subtracted can be given as arguments at the command line when 
+the program is invoked.
 
-Then the program asks you for the first number (the number from which is subtracted)
+It will be assumed that the name of the program file after compilation will be
 
-After that the program asks for the second number (which will be subtracted)
+  subtract
 
-After the calculation the program shows the result on the screen and terminates.
 
-An example for
+Just invoke like
 
-  8 - 6 = 2
-  
-looks like this:
+  ./subtract number1 number2
 
-  in : 8
-  in : 6
-  out: 2.000000
+for example
 
+  ./subtract 5.80 6.95
+
+And the result will be shown on the terminal.
+The numbers are represented as double- values.
+
+If too few arguments are given, the program aborts without telling a result.
+
+The interactive mode that enabled entering the numbers after invocation with
+"in: " prompts got removed because the subtraction of two numbers certainly is
+not regarded as a big task and it was considered more comfortable to pass the
+two numbers just at the invocation.
 
 
 
 Version history:
 ----------------
 
-Version 2.0
-
-Implemention of full user interaction to replace the need of running the program with a debugger.
-
-
-Version 1.0
-
-Initial version.
+Implementation of the number entry as arguments at invocation.
+Termination of the program if too less data is entered.
